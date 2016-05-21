@@ -14,6 +14,9 @@ Ruby on Rails
 * Add tooltips explaining words/concepts the general public might not be as familiar with.
 
 ==== For more information about the Lojong Slogans:
-https://en.wikipedia.org/wiki/Lojong
+* https://en.wikipedia.org/wiki/Lojong
+* http://www.shambhala.com/the-practice-of-lojong.html
 
-http://www.shambhala.com/the-practice-of-lojong.html
+=== Authors
+* Forrest Phillips
+  * https://github.com/FPhillips27
