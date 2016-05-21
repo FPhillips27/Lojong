@@ -1,14 +1,18 @@
 == README
 
-This is a work in progress webapp which displays the Buddhist Lojong Sayings. 
-The Lojong Sayings are a set of aphorisms designed to help you overcome undesired mental habits.
+## The Lojong Slogans
+This is a work in progress webapp which displays the Buddhist Lojong Slogans. 
+The Lojong Slogans are a set of aphorisms designed to help you overcome undesired mental habits.
 
-This app is in no way a replacement for meeting with a teacher or reading a book on the Lojong Sayings. 
-The goal of this app is to introduce the sayings to new people and encourage them to learn more.
+This app is in no way a replacement for meeting with a teacher or reading a book on the Lojong Slogans. 
+The goal of this app is to introduce the sayings to new people and encourage them to learn more. 
 
-To Dos:
-Make the app display one randomly selected saying rather than all 59 at once.
-Add tooltips explaining words the general public might not be as familiar with.
+##Built With
+Ruby on Rails
+
+## To Dos:
+* Make the app display one randomly selected saying rather than show all 59 at once.
+* Add tooltips explaining words/concepts the general public might not be as familiar with.
 
 For more information about the Lojong Sayings:
 https://en.wikipedia.org/wiki/Lojong
