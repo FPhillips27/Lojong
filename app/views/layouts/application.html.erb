@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Lojong</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+        <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
 
-<%= yield %>
+  <%= yield %>
 
 </body>
+
+<script>
+javascript:function wrathfulDeities (){document.body.innerHTML=document.body.innerHTML.replace(/dharmapalas/gi, "<span class='getinfo tooltip'>avoidingDharma<span class='tooltiptext'><a href='https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81' target='_blank'>Wrathful deities</a></span></span>" );return;}; wrathfulDeities();
+javascript:function dharma (){document.body.innerHTML=document.body.innerHTML.replace(/dharma/g, "<span class='getinfo tooltip'>dharma<span class='tooltiptext'><a href='https://en.wikipedia.org/wiki/Dharma#Buddhism' target='_blank'>The teachings of the Buddha</a></span></span>" );return;}; dharma();
+javascript:function dharmapalas (){document.body.innerHTML=document.body.innerHTML.replace(/avoidingDharma/gi, "<span class='getinfo tooltip'>dharmapalas<span class='tooltiptext'><a href='https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81' target='_blank'>Wrathful deities</a></span></span>" );return;}; dharmapalas();
+javascript:function bodhi (){document.body.innerHTML=document.body.innerHTML.replace(/bodhi/gi, "<span class='getinfo tooltip'>bodhi<span class='tooltiptext'>Awakening</span></span>" );return;}; bodhi();
+javascript:function shunyata (){document.body.innerHTML=document.body.innerHTML.replace(/shunyata/gi, "<span class='getinfo tooltip'>shunyata<span class='tooltiptext'>Often translated as <a href='https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81' target='_blank'>Emptiness</a></span></span>" );return;}; shunyata();
+
+</script>
+
 </html>

@@ -1,6 +1,9 @@
 <span class="title"><center><h1>The 59 Slogans of Lojong</h1></span></center>
 <% @lojong_sayings.each do |lojong_saying| %>
-<div class="saying-card">
-<p><%= content_tag :p, lojong_saying.number, class: 'number' %><%= content_tag :p, lojong_saying.content, class: 'content' %></p></div>
+  <div class="saying-card">
+    <p>
+      <%= content_tag :p, lojong_saying.number, class: 'number' %>
+        <%= content_tag :p, lojong_saying.content, class: 'content' %>
+    </p>
+  </div>
   <% end %>
-
