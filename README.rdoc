@@ -8,7 +8,8 @@ The goal of this app is to introduce the slogans to new people and encourage the
 
 === Built With
 Ruby on Rails
-Lojong
+
+Javascript
 
 === To Dos:
 * Make the app display one randomly selected saying rather than show all 59 at once.
