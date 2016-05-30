@@ -50,37 +50,64 @@ h1 {
 }
 
 .getinfo {
-    color:red;
-
+  color: red;
 }
 
 .tooltip {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
+  transition: all .5s ease 0s;
+  
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    font-size: 15px;
-
-    /* Position the tooltip */
-    position: absolute;
-    width: 18em;
-    bottom: 100%;
-    left: 50%; 
-    margin-left: -9em; /* Use half of the width (120/2 = 60), to center the tooltip */
+  opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 15px;
+  /* Position the tooltip */
+  position: absolute;
+  width: 18em;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -9em;
 }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;
-
+      opacity: 1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .tooltiptext a {
-  color:#FFF;
+  color: #FFF;
+  transition: all .5s ease 0s;
+}
+
+.tooltiptext a:hover {
+  color: #CBFEE7;
+  transition: all .5s ease 0s;
+}
+
+.tooltiptext a:visited {
+  color: #CCC;
+}
+
+.tooltiptext a:visited:hover {
+  color: #CBFEE7;
+  transition: all .5s ease 0s;
+}
+
+.tooltiptext {
+  box-shadow: 2px 2px 30px #888888;
+  border: #FFF 1px solid;
 }
