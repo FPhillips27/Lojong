@@ -21,12 +21,15 @@ body {
     background-color: #FCF8DF;
 }
 
+.title {
+  margin-left: auto;
+  margin-right:auto;
+  width: 40em;
+}
+
 .saying-card {
-  width: 75%;
-  margin-left: 10%;
-  padding-left: 2%;
-  padding-right: 2%;
-  margin-top: -22em;
+  width: 40em;
+  margin:auto;
 }
 
 .number {
@@ -34,6 +37,8 @@ body {
   font-size: 25em;
   text-shadow: 5px 5px 5px #FBCFC8;
   text-shadow: -5px -5px 15px #FBCFC8;
+  width:25em;
+  margin-right: auto;
 }
 
 .content {
