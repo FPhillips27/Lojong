@@ -1,7 +1,7 @@
 class LojongSayingsController < ApplicationController
            #GET
     def index
-        @lojong_sayings = LojongSaying.all
+        @lojong_sayings = LojongSaying.randomSaying
     end
         #GET
     def show
