@@ -1,9 +1,10 @@
-<span class="title"><center><h1>The 59 Slogans of Lojong</h1></span></center>
+<div class="fade-in title"><center><h1>The 59 Slogans of Lojong</h1></center></div>
 <% @lojong_sayings.each do |lojong_saying| %>
-  <div class="saying-card">
+  <div class="saying-card fade-slow">
     <p>
       <%= content_tag :p, lojong_saying.number, class: 'number' %>
         <%= content_tag :p, lojong_saying.content, class: 'content' %>
     </p>
   </div>
   <% end %>
+  

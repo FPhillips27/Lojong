@@ -1,7 +1,4 @@
 class LojongSayingsController < ApplicationController
-    def random
-        @lojong_saying = LojongSaying.order("RANDOM()").first
-    end
            #GET
     def index
         @lojong_sayings = LojongSaying.all
