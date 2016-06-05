@@ -12,7 +12,7 @@ Ruby on Rails
 JavaScript
 
 === To Dos:
-* Make the app display one randomly selected saying rather than show all 59 at once.
+* Make the app display one randomly selected saying rather than show all 59 at once. :heavy_check_mark:
 * Add tooltips explaining words/concepts the general public might not be as familiar with. :heavy_check_mark:
 
 ==== For more information about the Lojong Slogans:
