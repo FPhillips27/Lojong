@@ -17,8 +17,7 @@
 body {
   font-family: "Noto Serif";
   color: #444;
-    transition: all .5s ease 0s;
-    background-color: #FCF8DF;
+  background-color: #fff;
 }
 
 .title {
@@ -28,17 +27,24 @@ body {
 }
 
 .saying-card {
-  width: 40em;
+  width: 55em;
   margin:auto;
+  margin-top: -21em;
+  padding-left: 5em;
 }
 
 .number {
-  color: #FBCFC8;
+  color: #000;
   font-size: 25em;
-  text-shadow: 5px 5px 5px #FBCFC8;
-  text-shadow: -5px -5px 15px #FBCFC8;
+  text-shadow: 5px 5px 15px #000;
+  text-shadow: -5px -5px 15px #000;
+  text-shadow: -8px -8px 15px #000;
+  text-shadow: 8px -8px 15px #000;
+  text-shadow: -10px -10px 15px #000;
+  text-shadow: 10px 10px 15px #000;
   width:25em;
   margin-right: auto;
+  opacity: 1;
 }
 
 .content {
@@ -48,7 +54,8 @@ body {
   opacity: 1;
   font-weight: bold;
   font-family: "Helvetica Neue";
-  color: #555;
+  color: #bbb;
+  text-shadow: 1px 3px 0px #777;
 }
 
 h1 {
@@ -57,14 +64,27 @@ h1 {
 }
 
 .getinfo {
-  color: red;
+  color: #D32333;
+  text-shadow: 0px 0px 0px #111;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.getinfo:hover {
+  color: #FF7783;
+  text-shadow: 0px 0px 0px #111;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .tooltip {
   position: relative;
   display: inline-block;
-  transition: all .5s ease 0s;
-  
+
 }
 
 .tooltip .tooltiptext {
@@ -133,9 +153,9 @@ h1 {
     -moz-animation-fill-mode:forwards;
     animation-fill-mode:forwards;
 
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
+    -webkit-animation-duration:.5s;
+    -moz-animation-duration:.5s;
+    animation-duration:.5s;
 }
 
 .fade-slow {
@@ -148,7 +168,7 @@ h1 {
     -moz-animation-fill-mode:forwards;
     animation-fill-mode:forwards;
 
-    -webkit-animation-duration:2s;
-    -moz-animation-duration:2s;
-    animation-duration:2s;
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
 }
