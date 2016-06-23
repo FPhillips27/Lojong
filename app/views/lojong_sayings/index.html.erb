@@ -1,8 +1,14 @@
 <% @lojong_sayings.each do |lojong_saying| %>
-  <div class="saying-card fade-slow">
+  <div class="fade-slow col-md-6 col-md-offset-3 hidden-xs hidden-sm vertical-center">
     <p>
-      <%= content_tag :p, lojong_saying.number, class: 'number' %>
+      <center><%= content_tag :p, lojong_saying.number, class: 'number' %></center>
         <%= content_tag :p, lojong_saying.content, class: 'content' %>
+    </p>
+  </div>
+  <div class="fade-slow col-xs-6 col-xs-offset-3 hidden-md hidden-lg vertical-center">
+    <p>
+      <center><%= content_tag :p, lojong_saying.number, class: 'number-mobile' %></center>
+        <%= content_tag :p, lojong_saying.content, class: 'content-mobile' %>
     </p>
   </div>
   <% end %>
