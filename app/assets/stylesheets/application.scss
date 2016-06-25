@@ -92,13 +92,13 @@ h1 {
     transition: all .3s ease-in-out;
 }
 
-.tooltip {
+.infotip {
   position: relative;
   display: inline-block;
 
 }
 
-.tooltip .tooltiptext {
+.infotip .infotiptext {
   opacity: 0;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -118,7 +118,7 @@ h1 {
   margin-left: -9em;
 }
 
-.tooltip:hover .tooltiptext {
+.infotip:hover .infotiptext {
       opacity: 1;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -126,26 +126,26 @@ h1 {
     transition: all .5s ease-in-out;
 }
 
-.tooltiptext a {
+.infotiptext a {
   color: #FFF;
   transition: all .5s ease 0s;
 }
 
-.tooltiptext a:hover {
+.infotiptext a:hover {
   color: #CBFEE7;
   transition: all .5s ease 0s;
 }
 
-.tooltiptext a:visited {
+.infotiptext a:visited {
   color: #CCC;
 }
 
-.tooltiptext a:visited:hover {
+.infotiptext a:visited:hover {
   color: #CBFEE7;
   transition: all .5s ease 0s;
 }
 
-.tooltiptext {
+.infotiptext {
   box-shadow: 2px 2px 5px #000;
   border: #FFF 1px solid;
 }
