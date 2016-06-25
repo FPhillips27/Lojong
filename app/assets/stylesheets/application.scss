@@ -81,6 +81,8 @@ h1 {
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+  cursor:pointer
+
 }
 
 .getinfo:hover {
@@ -95,7 +97,6 @@ h1 {
 .infotip {
   position: relative;
   display: inline-block;
-
 }
 
 .infotip .infotiptext {
