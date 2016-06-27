@@ -126,6 +126,7 @@ h1 {
 .infotiptext a {
   color: #FFF;
   transition: all .5s ease 0s;
+  text-decoration: underline;
 }
 
 .infotiptext a:hover {
@@ -243,6 +244,16 @@ h1 {
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+.refresh-button:active {
+  background-color: #FFF;
+  color: #FFF;
+  border-radius: 70px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .refresh-button-mobile {
