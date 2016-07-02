@@ -17,7 +17,7 @@ JavaScript
 * Make the app display one randomly selected saying rather than show all 59 at once. :heavy_check_mark:
 * Add tooltips explaining words/concepts the general public might not be as familiar with. :heavy_check_mark:
 * Enable explanatory tooltips on mobile :heavy_check_mark:
-* Deploy :heavy_check_mark
+* Deploy :heavy_check_mark:
 
 #### For more information about the Lojong Slogans:
 * https://en.wikipedia.org/wiki/Lojong
