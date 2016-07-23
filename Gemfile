@@ -58,3 +58,5 @@ group :test do
   gem 'pry-byebug'
   gem 'selenium-webdriver'
 end
+
+  gem "codeclimate-test-reporter", group: :test, require: nil
