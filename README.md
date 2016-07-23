@@ -1,4 +1,7 @@
-# The Lojong Slogans [![Build Status](https://travis-ci.org/FPhillips27/Lojong.svg?branch=master)](https://travis-ci.org/FPhillips27/Lojong)
+# The Lojong Slogans 
+[![Build Status](https://travis-ci.org/FPhillips27/Lojong.svg?branch=master)](https://travis-ci.org/FPhillips27/Lojong)
+[![Code Climate](https://codeclimate.com/github/FPhillips27/Lojong/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Lojong)
+[![Test Coverage](https://codeclimate.com/github/FPhillips27/Lojong/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Lojong/coverage)
 
 This is a work in progress webapp which displays Tibetan Buddhism's Lojong Slogans.
 The Lojong Slogans are a set of aphorisms designed to help you overcome undesired mental habits.
