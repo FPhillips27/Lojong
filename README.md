@@ -3,11 +3,9 @@
 [![Code Climate](https://codeclimate.com/github/FPhillips27/Lojong/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Lojong)
 [![Test Coverage](https://codeclimate.com/github/FPhillips27/Lojong/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Lojong/coverage)
 
-This is a work in progress webapp which displays Tibetan Buddhism's Lojong Slogans.
-The Lojong Slogans are a set of aphorisms designed to help you overcome undesired mental habits.
+Lojong is a webapp which displays Tibetan Buddhism's Lojong Slogans. The Slogans are a set of aphorisms designed to help you overcome undesired mental habits.
 
-This app is in no way a replacement for meeting with a teacher or reading a book on the Lojong Slogans. 
-The goal of this app is merely to introduce the slogans to people and encourage them to learn more. 
+This app is in no way a replacement for meeting with a teacher or reading a book on the Lojong Slogans. They'll go into more detail than I ever could. The goal of this app is to introduce people to the slogans and encourage them to learn more.
 
 You can see this app here: https://lojong-slogans.herokuapp.com/
 
