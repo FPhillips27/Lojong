@@ -10,8 +10,8 @@ gem 'pg', group: :production # Added postgres and made it production only.
 gem 'rails_12factor'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails'
+gem 'bootstrap-sass'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'

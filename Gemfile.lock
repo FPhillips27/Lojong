@@ -212,7 +212,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.6)
+  bootstrap-sass
   byebug
   codeclimate-test-reporter
   coffee-rails
@@ -225,7 +225,7 @@ DEPENDENCIES
   pry-byebug
   rails
   rails_12factor
-  sass-rails (~> 5.0)
+  sass-rails
   sdoc (~> 0.4.0)
   selenium-webdriver
   spring
