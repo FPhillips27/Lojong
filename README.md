@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/FPhillips27/Lojong.svg?branch=master)](https://travis-ci.org/FPhillips27/Lojong)
 [![Code Climate](https://codeclimate.com/github/FPhillips27/Lojong/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Lojong)
 [![Test Coverage](https://codeclimate.com/github/FPhillips27/Lojong/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Lojong/coverage)
+[![Dependency Status](https://gemnasium.com/badges/github.com/FPhillips27/Lojong.svg)](https://gemnasium.com/github.com/FPhillips27/Lojong)
 
 Lojong is a webapp which displays Tibetan Buddhism's Lojong Slogans. The Slogans are a set of aphorisms designed to help you overcome undesired mental habits.
 
