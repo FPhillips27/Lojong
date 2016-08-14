@@ -7,7 +7,6 @@ Given(/^that I am on the about page$/) do
 end
 
 Then(/^I will see the number of a Lojong saying$/) do
-    binding.pry
     find("p.number")
 end
 
