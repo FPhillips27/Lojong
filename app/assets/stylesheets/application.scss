@@ -35,6 +35,7 @@ body {
   text-shadow: 8px -8px 15px #EEE;
   text-shadow: -10px -10px 15px #EEE;
   text-shadow: 10px 10px 15px #EEE;
+  margin-top: -.3em;
 }
 
 .number-mobile {
@@ -46,6 +47,8 @@ body {
   text-shadow: 8px -8px 15px #EEE;
   text-shadow: -10px -10px 15px #EEE;
   text-shadow: 10px 10px 15px #EEE;
+  margin-top: -.5em;
+  margin-left: -.3em;
 }
 
 .content {
@@ -55,15 +58,17 @@ body {
   font-family: "Helvetica Neue";
   color: #111;
   margin-left: -60%;
+  margin-top: -1em;
 }
 
 .content-mobile {
-  font-size: 4em;
+  font-size: 3.5em;
   opacity: 1;
   font-weight: bold;
   font-family: "Helvetica Neue";
   color: #111;
-  margin-left: -70%;
+  margin-left: -30%;
+  margin-top: -3em;
 }
 
 h1 {
@@ -259,7 +264,7 @@ h1 {
 .refresh-button-mobile {
   padding: 1em;
   position: fixed;
-  margin-top: 22em;
+  margin-top: 20em;
   background-color: #D32333;
   color: #FFF;
   border-radius: 5em;
@@ -271,9 +276,38 @@ h1 {
 }
 
 .mobile-view {
-  margin-top: -3em;
+  margin-top: -2em;
 }
 
 .computer-view {
-  margin-top: -3em;
+}
+
+.nav-bar {
+  background: #000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #FFF;
+}
+
+.nav-bar a {
+  color: #D32333;
+  text-decoration: none;
+  transition: all .8s ease 0s;
+} 
+
+.nav-bar a:hover {
+  color: #FFF;
+  text-decoration: none;
+  transition: all .8s ease 0s;
+} 
+
+.nav-bar a:active {
+  color: #AAA;
+  text-decoration: none;
+  transition: all .8s ease 0s;
+} 
+
+.about-text {
+  font-size: 2em;
+  padding-top: 2em;
 }

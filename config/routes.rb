@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   root 'lojong_sayings#index'
   resources :lojong_sayings
+  
+  get "about" => "about#index", as: 'about_page'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
