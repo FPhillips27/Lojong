@@ -14,3 +14,11 @@ RSpec.describe "Navbar Link", :type => :request do
     current_path.should == "/lojong_sayings"
   end
 end
+
+RSpec.describe "Refresh Button", :type => :request do
+  it "takes to the user to /lojong_sayings when they click it" do
+    visit "#index"
+    page.find('#new_slogan_mobile').click
+    current_path.should == "/lojong_sayings"
+  end
+end
