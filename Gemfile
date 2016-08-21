@@ -63,5 +63,8 @@ end
 
   gem 'nokogiri', '~> 1.6', '>= 1.6.8'
   
+group :development, :test do
   gem 'rspec', '3.5.0'
-  
+  gem 'rspec-rails'
+  gem 'rails-controller-testing'
+end
