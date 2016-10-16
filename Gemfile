@@ -63,7 +63,7 @@ end
 
   gem "codeclimate-test-reporter", '0.6.0', group: :test, require: nil
 
-  gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+  gem 'nokogiri', '1.6.8.1'
   
 group :development, :test do
   gem 'rspec', '3.5.0'
