@@ -54,7 +54,7 @@ group :development do
 end
 
 group :test do
-  gem 'cucumber-rails', '1.4.4', :require => false
+  gem 'cucumber-rails', '1.4.5', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner', '1.5.3'
   gem 'pry-byebug', '3.4.0'
