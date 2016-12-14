@@ -57,11 +57,11 @@ group :test do
   gem 'cucumber-rails', '1.4.5', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner', '1.5.3'
-  gem 'pry-byebug', '3.4.0'
-  gem 'selenium-webdriver', '3.0.0'
+  gem 'pry-byebug', '3.4.2'
+  gem 'selenium-webdriver', '3.0.3'
 end
 
-  gem "codeclimate-test-reporter", '0.6.0', group: :test, require: nil
+  gem "codeclimate-test-reporter", '1.0.3', group: :test, require: nil
 
   gem 'nokogiri', '1.6.8.1'
   
