@@ -16,7 +16,7 @@ gem 'sass-rails', '5.0.6'
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '3.0.3'
+gem 'uglifier', '3.0.4'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -57,11 +57,11 @@ group :test do
   gem 'cucumber-rails', '1.4.5', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner', '1.5.3'
-  gem 'pry-byebug', '3.4.0'
-  gem 'selenium-webdriver', '3.0.0'
+  gem 'pry-byebug', '3.4.2'
+  gem 'selenium-webdriver', '3.0.3'
 end
 
-  gem "codeclimate-test-reporter", '0.6.0', group: :test, require: nil
+  gem "codeclimate-test-reporter", '1.0.3', group: :test, require: nil
 
   gem 'nokogiri', '1.6.8.1'
   
