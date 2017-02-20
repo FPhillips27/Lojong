@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.0.1'
+gem 'rails', '5.0.1'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-  gem 'sqlite3', '1.3.12'
+  gem 'sqlite3', '1.3.13'
 end
 gem 'pg', '0.19.0', group: :production # Added postgres and made it production only.
 gem 'rails_12factor', '0.0.3'
@@ -50,7 +50,7 @@ group :development do
   gem 'web-console', '3.4.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring', '2.0.0'
+  gem 'spring', '2.0.1'
 end
 
 group :test do
@@ -58,10 +58,10 @@ group :test do
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner', '1.5.3'
   gem 'pry-byebug', '3.4.2'
-  gem 'selenium-webdriver', '3.0.3'
+  gem 'selenium-webdriver', '3.1.0'
 end
 
-  gem "codeclimate-test-reporter", '1.0.3', group: :test, require: nil
+  gem "codeclimate-test-reporter", '1.0.5', group: :test, require: nil
 
   gem 'nokogiri', '1.7.0.1'
   
