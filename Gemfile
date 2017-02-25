@@ -58,10 +58,10 @@ group :test do
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner', '1.5.3'
   gem 'pry-byebug', '3.4.2'
-  gem 'selenium-webdriver', '< 3.1.0'
+  gem 'selenium-webdriver', '3.2.1'
 end
 
-  gem "codeclimate-test-reporter", '< 1.0.5', group: :test, require: nil
+  gem "codeclimate-test-reporter", '1.0.6', group: :test, require: nil
 
   gem 'nokogiri', '1.7.0.1'
   
