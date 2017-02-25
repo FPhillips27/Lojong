@@ -61,7 +61,7 @@ group :test do
   gem 'selenium-webdriver', '3.1.0'
 end
 
-  gem "codeclimate-test-reporter", '1.0.5', group: :test, require: nil
+  gem "codeclimate-test-reporter", '< 1.0.5', group: :test, require: nil
 
   gem 'nokogiri', '1.7.0.1'
   
