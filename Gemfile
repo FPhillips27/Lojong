@@ -8,7 +8,7 @@ gem 'rails'
 group :development, :test do
   gem 'sqlite3', '1.3.13'
 end
-gem 'pg', '0.19.0', group: :production # Added postgres and made it production only.
+gem 'pg', '0.20.0', group: :production # Added postgres and made it production only.
 gem 'rails_12factor', '0.0.3'
 
 # Use SCSS for stylesheets
