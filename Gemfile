@@ -8,7 +8,7 @@ gem 'rails'
 group :development, :test do
   gem 'sqlite3', '1.3.13'
 end
-gem 'pg', '0.19.0', group: :production # Added postgres and made it production only.
+gem 'pg', '0.20.0', group: :production # Added postgres and made it production only.
 gem 'rails_12factor', '0.0.3'
 
 # Use SCSS for stylesheets
@@ -16,7 +16,7 @@ gem 'sass-rails', '5.0.6'
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '3.1.3'
+gem 'uglifier', '3.1.6'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -63,7 +63,7 @@ end
 
 group :test do
   gem "simplecov"
-  gem "codeclimate-test-reporter", '1.0.6'
+  gem "codeclimate-test-reporter", '1.0.7'
 end
 
   gem 'nokogiri', '1.7.0.1'
