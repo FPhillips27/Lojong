@@ -16,14 +16,14 @@ gem 'sass-rails', '5.0.6'
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '3.1.8'
+gem 'uglifier', '<= 3.1.8'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '4.2.2'
+gem 'jquery-rails', '>= 4.3.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -47,7 +47,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '3.4.0'
+  gem 'web-console', '3.5.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '2.0.1'
@@ -63,10 +63,10 @@ end
 
 group :test do
   gem "simplecov"
-  gem "codeclimate-test-reporter", '1.0.7'
+  gem "codeclimate-test-reporter", '1.0.8'
 end
 
-  gem 'nokogiri', '1.7.0.1'
+  gem 'nokogiri', '1.7.1'
   
 group :development, :test do
   gem 'rspec', '3.5.0'
