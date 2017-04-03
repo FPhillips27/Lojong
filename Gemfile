@@ -47,7 +47,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '3.4.0'
+  gem 'web-console', '3.5.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '2.0.1'
@@ -63,7 +63,7 @@ end
 
 group :test do
   gem "simplecov"
-  gem "codeclimate-test-reporter", '1.0.7'
+  gem "codeclimate-test-reporter", '1.0.8'
 end
 
   gem 'nokogiri', '1.7.1'
