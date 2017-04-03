@@ -63,7 +63,7 @@ end
 
 group :test do
   gem "simplecov"
-  gem "codeclimate-test-reporter", '1.0.8'
+  gem "codeclimate-test-reporter"
 end
 
   gem 'nokogiri', '1.7.1'

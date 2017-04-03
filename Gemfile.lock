@@ -244,7 +244,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (= 3.3.7)
   byebug (= 9.0.6)
-  codeclimate-test-reporter (= 1.0.8)
+  codeclimate-test-reporter
   coffee-rails (= 4.2.1)
   cucumber-rails (= 1.4.5)
   database_cleaner (= 1.5.3)
