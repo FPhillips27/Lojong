@@ -66,7 +66,7 @@ group :test do
   gem "codeclimate-test-reporter", '1.0.7'
 end
 
-  gem 'nokogiri', '1.7.0.1'
+  gem 'nokogiri', '1.7.1'
   
 group :development, :test do
   gem 'rspec', '3.5.0'
